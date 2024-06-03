@@ -27,6 +27,7 @@ export class MainMenuView
                     controller.getAll().forEach(v => console.log(`${v.targa} - Entrato: ${v.ingresso}`) )
                     break;
                 case 2:
+                    console.log(`Sono presenti ${controller.getNumber()} veicoli`)
                     break;
                 case 9:
                     break;
